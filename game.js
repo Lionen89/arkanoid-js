@@ -130,7 +130,7 @@ const game = {
   y: 265,
   dx: 0,
   dy: 0,
-  velocity: 5,
+  velocity: 4,
   jump: function () {
     this.dx = -this.velocity;
     this.dy = -this.velocity;
